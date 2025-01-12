@@ -1,0 +1,366 @@
+/*iPad Pro*/
+@media (max-width: 1024px) {
+/*header*/
+    .header__nav {
+        padding-left: 32px;
+        padding-right: 20px;
+    }
+    .header__list {
+        gap: 16px;
+    }
+    .header-line {
+        display: none;
+    }
+/*Container*/
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .main__background {
+        display: none;
+    }
+    .hero__filter__list {
+        flex-wrap: wrap;
+    }
+    .blogsCard__img-two {
+        width: 468px;
+    }
+    .blogsCard__img-three {
+        width: 304px;
+        height: 206px;
+    }
+    .blogsCard__first,
+    .blogsCard__second {
+        max-width: 468px;
+    }
+    .blogsCard__text-article_one {
+        padding-bottom: 42px;
+    }
+    .blogsCard__text-article-two {
+        padding-bottom: 48px;
+    }
+    .blogsCard-three__first,
+    .blogsCard-three__second,
+    .blogsCard-three__third {
+        max-width: 304px;
+    }
+    .blogsCard-three__text-data {
+        padding-top: 28px;
+    }
+    .hero__btn_else {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+/*footer*/
+    .footer__menu {
+        gap: 21px;
+    }
+    .footer__nav {
+        gap: 30px;
+    }
+    .footer__line {
+        max-width: 960px;
+    }
+}
+/*iPad mini-2*/
+@media (max-width: 768px) {
+/*header*/
+    .header__nav {
+        display: none;
+    }
+    .header__btn {
+        display: none;
+    }
+    .header-adapt_btn {
+        display: block;
+    }
+/*Container*/
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blogsCard-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 728px;
+
+    }
+    .blogsCard__img {
+        width: 728px;
+        max-height: 404px;
+    }
+    .blogsCard__img-two {
+        width: 728px;
+        height: 404px;
+    }
+    .hero__filter__list {
+        flex-wrap: wrap;
+    }
+    .blogsCard__first,
+    .blogsCard__second {
+        max-width: 728px;
+    }
+    .blogsCard__text-article_one {
+        padding-bottom: 44px;
+    }
+    .blogsCard__text-article-two {
+        padding-bottom: 44px;
+    }
+    .blogsCard-three {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogsCard__img-three {
+        width: 352px;
+        height: 206px;
+    }
+    .blogsCard-three__first,
+    .blogsCard-three__second,
+    .blogsCard-three__third {
+        max-width: 352px;
+    }
+    .blogsCard-three__text-data {
+        padding-top: 16px;
+    }
+    .hero__btn_else {
+        margin-top: 33px;
+        margin-bottom: 55px;
+    }
+/*footer*/
+    .footer__menu {
+        gap: 31px;
+    }
+    .footer__nav {
+        gap: 30px;
+    }
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 26px;
+    }
+    .footer__line {
+        max-width: 728px;
+    }
+}
+/*iPhone 11 Pro Max*/
+@media (max-width: 414px) {
+/*header*/
+    .header__nav {
+        display: none;
+    }
+    .header {
+        height: 72px;
+    }
+    .header__btn {
+        display: none;
+    }
+    .header__logo {
+        padding-top: 19px;
+    }
+    .header-adapt_btn {
+        display: block;
+        padding-top: 16px;
+    }
+/*Container*/
+    .container {
+        max-width: 414px;
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .blogsCard-two {
+        display: flex;
+        flex-direction: column;
+        max-width: 374px;
+
+    }
+    .blogsCard__img {
+        width: 374px;
+        max-height: 206px;
+    }
+    .blogsCard__img-two {
+        width: 374px;
+        height: 206px;
+    }
+    .hero__filter__list {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        
+    }
+    .blogsCard__first,
+    .blogsCard__second {
+        max-width: 374px;
+    }
+    .blogsCard__text-article_one {
+        padding-bottom: 62px;
+    }
+    .blogsCard__text-article-two {
+        padding-bottom: 62px;
+    }
+    .blogsCard-three {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogsCard__img-three {
+        width: 374px;
+        height: 206px;
+    }
+    .blogsCard-three__first,
+    .blogsCard-three__second,
+    .blogsCard-three__third {
+        max-width: 374px;
+    }
+    .blogsCard-three__text-data {
+        padding-top: 62px;
+        font-size: 12px;
+    }
+    .block__adaptiv-none {
+        display: none;
+    }
+    .hero__btn_else {
+        margin-top: 28px;
+        margin-bottom: 59px;
+    }
+/*footer*/
+    .footer__nav {
+        gap: 158px;
+    }
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(1, auto);
+        gap: 23px;
+    }
+    .footer__registration_email-btn {
+        width: 375px;
+    }
+    .social {
+        gap: 20px;
+    }
+    .copuright {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 37px;
+    }
+    .footer__line {
+        max-width: 374px;
+    }
+}
+/*iPhone SE*/
+@media (max-width: 320px) {
+    /*header*/
+        .header__nav {
+            display: none;
+        }
+        .header {
+            height: 56px;
+        }
+        .header__btn {
+            display: none;
+        }
+        .header__logo {
+            padding-top: 11px;
+        }
+        .header-adapt_btn {
+            display: block;
+            padding-top: 8px;
+        }
+    /*Container*/
+        .container {
+            max-width: 320px;
+            margin: 0 auto;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        .blogsCard-two {
+            display: flex;
+            flex-direction: column;
+            max-width: 288px;
+    
+        }
+        .blogsCard__img {
+            width: 288px;
+            max-height: 206px;
+        }
+        .blogsCard__img-two {
+            width: 288px;
+            height: 206px;
+        }
+        .hero__filter__list {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            
+        }
+        .blogsCard__first,
+        .blogsCard__second {
+            max-width: 288px;
+        }
+        .blogsCard__text-article_one {
+            padding-bottom: 8px;
+        }
+        .blogsCard__text-article-two {
+            padding-bottom: 8px;
+        }
+        .blogsCard-three {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .blogsCard__img-three {
+            width: 288px;
+            height: 206px;
+        }
+        .blogsCard-three__first,
+        .blogsCard-three__second,
+        .blogsCard-three__third {
+            max-width: 288px;
+        }
+        .blogsCard-three__text-data {
+            padding-top: 8px;
+            font-size: 12px;
+        }
+        .block__adaptiv-none {
+            display: none;
+        }
+        .hero__btn_else {
+            margin-top: 28px;
+            margin-bottom: 59px;
+        }
+    /*footer*/
+        .footer__nav {
+            gap: 71px;
+        }
+        .footer__menu {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            grid-template-rows: repeat(1, auto);
+            gap: 23px;
+        }
+        .footer__registration_email-btn {
+            width: 288px;
+        }
+        .footer__registration_tittle {
+            padding-bottom: 16px;
+        }
+        .footer__registration_email-regbtn {
+            background-image: none;
+        }
+        .footer__line {
+            max-width: 288px;
+        }
+        .social {
+            padding-top: 16px;
+            gap: 20px;
+        }
+        .copuright {
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 20px;
+            padding-bottom: 37px;
+        }
+    }

@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+main {
+    position: relative;
+}
+button:hover {
+    background-color: #17E6C4;
+    color: #3A9DBA;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero__navigation {
+    list-style-type: none;
+    display:flex;
+    gap: 8px;
+    padding: 0;
+}
+.hero__navigation-btn {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(51, 51, 51, 70%);
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.hero__navigation-btn_arrow {
+    background-image: url("../images/png/Arrow-right.png");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: right;
+    padding: 1px 20px 1px 0px;
+}
+.hero__tittle {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 48px;
+}
+.hero {
+    display: flex;
+}
+.blogsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.blogsCard-two {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 24px;
+}
+.blogsCard__first{
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #DEDEDE;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.blogsCard__second {
+    max-width: 588px;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #DEDEDE;
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.blogsCard-three__first{
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #DEDEDE;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.blogsCard-three__second {
+    max-width: 384px;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #DEDEDE;
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.blogsCard-three__third {
+    max-width: 384px;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #DEDEDE;
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.blogsCard-teg {
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px 0px 8px;
+    padding: 0;
+    gap: 8px;
+}
+.align__unicorn {
+    padding-right: 2;
+}
+.Card-teg__btn {
+    background-image: url("../images/png/unicorn.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 8px center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    border: 0;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 6px 8px 6px 32px;
+}
+.blogsCard-first__text {
+    text-decoration: none;
+    color: #333333;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.blogsCard__text-title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 18px;
+    margin: 0;
+}
+.blogsCard__text-author {
+    line-height: 18px;
+    font-size: 12px;
+    color: #494949;
+    font-family: "Montserrat";
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 8px
+}
+.blogsCard__text-article {
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0;
+}
+.blogsCard__text-article_one {
+    padding-bottom: 68px;
+}
+.blogsCard__text-article-two {
+    padding-bottom: 94px;
+}
+.blogsCard-second__text {
+    text-decoration: none;
+    color: #333333;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.blogsCard__text {
+    text-decoration: none;
+    color: #333333;
+    padding: 16px 16px 58px 16px;
+}
+.blogsCard__text-data {
+    text-decoration: none;
+    color: #868686;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    margin: 0;
+    padding-bottom: 16px;
+    font-size: 12px;
+}
+.blogsCard-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.blogsCard-three__text{
+    text-decoration: none;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.blogsCard-three__text-title {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 26px;
+    color: #333333;
+}
+.blogsCard-three__text-author {
+    margin: 0;
+    color: #494949;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+.blogsCard-three__text-article {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+.blogsCard-three__text-data {
+    margin: 0;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #868686;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.hero__btn_else {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 96px;
+}
+.hero__down-btn {
+    padding: 12px 72.5px;
+    color: #ffffff;
+    background-color: #35B3A9;
+    border-radius: 4px;
+    border: 0;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.logsCard__text-title {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.blogsCard__img-two {
+    width: 588px;
+    height: 260px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.blogsCard__img-three {
+    width: 384px;
+    height: 260px;
+}
+.main__background {
+    background-image: url(../images/png/Blue-cub.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 325px;
+    width: 100%;
+    height: 672px;
+    z-index: -1;
+}

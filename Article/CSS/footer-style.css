@@ -1,0 +1,130 @@
+footer {
+    background-color: #2963A3;
+    font-family: "Montserrat";
+    position: relative;
+}
+.footer__menu {
+    display: flex;
+    gap: 91.5px;
+    padding: 40px 0px 24px 0px;
+}
+.footer__nav {
+    display: flex;
+    gap: 93px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer__nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.footer__registration {
+    display: flex;
+    flex-direction: column;
+    max-width: 486px;
+    max-height: 170px;
+    row-gap: 8px;
+    position: relative;
+}
+.footer__registration_tittle {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin: 0;
+    max-width: 356px;
+    max-height: 52px;
+}
+.footer__registration_email-btntext {
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #9D9D9D;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 14px 52px 14px 16px;
+}
+.footer__registration_email-btn {
+    width: 384px;
+    height: 48px;
+}
+.footer__registration_rights-text {
+    margin: 0;
+    font-size: 12px ;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: rgb(255, 255, 255, 0.7);
+}
+.footer__registration_email-regbtn {
+    background-image: url("../images/png/button.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 64px;
+    cursor: pointer;
+}
+.footer-logo-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.footer-logo {
+    cursor: pointer;
+}
+.footer-logo-list_img {
+    padding: 18.89px 0.34px 12.02px 8.16px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.social-media-nav {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.copuright {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    gap: 48px;
+    cursor: pointer;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+.footer__line {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.copuright-text {
+    margin: 0;
+}
+.footer__background {
+    background-image: url(../images/png/Blue-cub.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -82px;
+    width: 100%;
+    height: 385px;
+    z-index: -1;
+}
